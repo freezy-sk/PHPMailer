@@ -12,3 +12,4 @@ jobs:
           fetch-depth: 1
       - name: Build
         uses: ./.github/actions/build-docs
+      - run: ls
